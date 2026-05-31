@@ -3,6 +3,7 @@
 
 &default_layout {
   transform = <&default_transform>;
+  kscan = <kscan>;
 };
 
 / {
