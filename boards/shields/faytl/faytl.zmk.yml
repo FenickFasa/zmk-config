@@ -15,6 +15,7 @@ url: https://example.com
 features:
   - keys
   - studio  # Remove this line if your keyboard will not support ZMK Studio
+  - encoder
 
 requires:
   - pro_micro
@@ -22,3 +23,4 @@ requires:
 siblings:
   - faytl_left
   - faytl_right
+  - faytl_dongl
