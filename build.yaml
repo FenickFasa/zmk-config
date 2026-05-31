@@ -22,3 +22,5 @@ include:
       shield: faytl_left
     - board: nice_nano_v2
       shield: faytl_right
+    - board: seeeduino_xiao_ble
+      shield: faytl_dongle
