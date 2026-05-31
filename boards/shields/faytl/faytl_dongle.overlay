@@ -2,7 +2,7 @@
 #import "faytl-layouts.dtsi"
 
 &default_layout {
-  transform = <&default_transform0>
+  transform = <&default_transform0>;
 };
 
 / {
