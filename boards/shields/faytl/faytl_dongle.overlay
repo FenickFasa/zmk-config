@@ -5,23 +5,13 @@
   transform = <&default_transform>;
 };
 
-&kscan {
-    col-gpios
-        = <&pro_micro 9 GPIO_ACTIVE_HIGH>
-        , <&pro_micro 8 GPIO_ACTIVE_HIGH>
-        , <&pro_micro 7 GPIO_ACTIVE_HIGH>
-        , <&pro_micro 6 GPIO_ACTIVE_HIGH>
-        , <&pro_micro 5 GPIO_ACTIVE_HIGH>
-        ;
-};
-
 / {
     chosen {
         zmk,kscan = &mock_kscan;
         zmk,physical-layout = &default_layout;
     };
 
-    mock_kscan: mock_kscan_0 {
+    mock_kscan: kscan {
         compatible = "zmk,kscan-mock";
         columns = <0>;
         rows = <0>;
