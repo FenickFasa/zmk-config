@@ -1,0 +1,16 @@
+if SHIELD_FAYTL_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "FAYTL"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif # SHIELD_FAYTL_LEFT
+
+if SHIELD_FAYTL_LEFT || SHIELD_FAYTL_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif # SHIELD_FAYTL_LEFT || SHIELD_FAYTL_RIGHT

@@ -18,3 +18,8 @@
 #     artifact-name: corne_left_with_studio
 #
 ---
+inckyde
+    - board: nice_nano_v2
+      shield: faytl_left
+    - board: nice_nano_v2
+      shield: faytl_right
