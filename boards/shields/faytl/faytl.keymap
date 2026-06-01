@@ -58,7 +58,7 @@
            &kp TAB      &kp A       &kp S     &mt LSHIFT D  &kp F       &kp G                            &kp H       &kp J      &mt RSHIFT K  &kp L      &kp SEMI     &kp BSLH
         &kp LCTRL  &kp Z       &kp X       &kp C       &kp V       &kp B    &kp Q   &kp Q    &kp N       &kp M      &kp COMMA     &kp PERIOD &kp SLASH    &kp END
         // THUMBS                                INNER      MIDDLE       OUTER      ||          ||      OUTER       MIDDLE      INNER
-                                                 &to 1      &kp SPACE    &kp DEL                        &kp BSPC    &kp RET     &kp N2
+                                                 &kp N1      &kp SPACE    &kp DEL                        &kp BSPC    &kp RET     &kp N2
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
