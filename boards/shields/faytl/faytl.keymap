@@ -61,7 +61,7 @@
         &kp HOME  &kp Z       &kp X       &kp C       &kp V       &kp B    &kp C_MUTE   &kp CPP    &kp N       &kp M      &kp COMMA     &kp PERIOD &kp SLASH    &kp END
         // THUMBS                                INNER      MIDDLE       OUTER      ||          ||      OUTER       MIDDLE      INNER
 
-                                                 &mo 1      &kp SPACE    &kp DEL                        &kp BSPC    &kp RET     &mo 2
+                                                 &KP N1      &kp SPACE    &kp DEL                        &kp BSPC    &kp RET     &KP N2
 
             >;
 
