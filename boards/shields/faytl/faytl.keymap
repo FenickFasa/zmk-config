@@ -86,7 +86,7 @@
         // OUTER        PINKY       RING        MIDDLE      INDEX       INNER       ||          ||       INNER       INDEX      MIDDLE        RING       PINKY        OUTER
                         &kp F1      &kp F2      &kp F3      &kp F4      &kp F5                           &kp F6      &kp F7     &kp F8        &kp F9     &kp F10
            &trans       &trans      &kp UP      &trans      &trans      &trans                           &trans      &trans     &kp UP        &trans     &kp F11      &trans
-           &trans       &kp LEFT    &kp DN      &kp RIGHT   &trans      &trans   &trans       &trans     &trans      &kp LEFT   &kp DOWN      &kp RIGHT  &kp F12      &trans
+           &trans       &kp LEFT    &kp DOWN    &kp RIGHT   &trans      &trans   &trans       &trans     &trans      &kp LEFT   &kp DOWN      &kp RIGHT  &kp F12      &trans
         // THUMBS
         //                                       INNER      MIDDLE       OUTER      ||          ||      OUTER       MIDDLE      INNER
                                                  &trans     &trans       &trans                         &trans      &trans      &trans
