@@ -49,8 +49,8 @@
             timeout-ms = <50>;
             key-positioni = <30 31>;
             bindings = <&kp RBKT>;
-*/        };
-
+        };
+*/
     keymap {
         compatible = "zmk,keymap";
 
@@ -96,6 +96,6 @@
         //                                       INNER      MIDDLE       OUTER      ||          ||      OUTER       MIDDLE      INNER
                                                  &trans     &trans       &trans                         &trans      &trans      &trans
             >;
-*/        };
-    };
+        };
+*/    };
 };
