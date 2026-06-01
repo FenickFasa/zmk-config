@@ -7,7 +7,7 @@
 / {
     // Define a default keymap here.
     // See https://zmk.dev/docs/development/hardware-integration/new-shield#default-keymap.
-    combos {
+/*    combos {
         compatible = "zmk, combos";
         combo_esc {
             timeout-ms = <50>;
@@ -19,37 +19,37 @@
             timeout-ms = <50>;
             key-positioni = <3 4>;
             bindings = <&kp LPAR>;
-    };
+        };
 
         combo_close_paren {
             timeout-ms = <50>;
             key-positioni = <5 6>;
             bindings = <&kp RPAR>;
-    };
+        };
 
         combo_open_curl {
             timeout-ms = <50>;
             key-positioni = <14 15>;
             bindings = <&kp LBRC>;
-    };
+        };
 
         combo_close_curl {
             timeout-ms = <50>;
             key-positioni = <16 17>;
             bindings = <&kp RBRC>;
-    };
+        };
 
         combo_open_bracket {
             timeout-ms = <50>;
             key-positioni = <26 27>;
             bindings = <&kp LBKT>;
-    };
+        };
 
         combo_close_bracket {
             timeout-ms = <50>;
             key-positioni = <30 31>;
             bindings = <&kp RBKT>;
-    };
+*/        };
 
     keymap {
         compatible = "zmk,keymap";
@@ -70,7 +70,7 @@
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
         };
 
-        number_layer {
+/*        number_layer {
             display-name = "Numbers"
             bindings = <
         // LEFT SIDE
@@ -82,6 +82,7 @@
         //                                       INNER      MIDDLE       OUTER      ||          ||      OUTER       MIDDLE      INNER
                                                  &trans     &trans       &trans                         &trans      &trans      &trans
             >;
+        };
 
         function_layer {
             display-name = "Functions"
@@ -95,5 +96,6 @@
         //                                       INNER      MIDDLE       OUTER      ||          ||      OUTER       MIDDLE      INNER
                                                  &trans     &trans       &trans                         &trans      &trans      &trans
             >;
+*/        };
     };
 };
