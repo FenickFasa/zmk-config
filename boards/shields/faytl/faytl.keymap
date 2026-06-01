@@ -50,6 +50,7 @@
             key-positioni = <30 31>;
             bindings = <&kp RBKT>;
         };
+    };
 */
     keymap {
         compatible = "zmk,keymap";
