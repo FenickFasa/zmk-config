@@ -118,7 +118,7 @@
         // LEFT SIDE
         // OUTER        PINKY       RING        MIDDLE      INDEX       INNER       ||          ||       INNER       INDEX      MIDDLE        RING       PINKY        OUTER
                         &kp Q       &kp W       &kp E       &kp R       &kp T                            &kp Y       &kp U      &kp I         &kp O      &kp P
-           &kp TAB &hml LGUI A &hml LALT S &hml LSHIFT D &hml LCTRL F   &kp G                            &kp H   &hmr RCTRL J &hmr RSHIFT K &hmr RALTL &hmr RGUI SEMIj &kp BSLH
+           &kp TAB &hml LGUI A &hml LALT S &hml LSHIFT D &hml LCTRL F   &kp G                            &kp H   &hmr RCTRL J &hmr RSHIFT K &hmr RALT L &hmr RGUI SEMI &kp BSLH
         &mt LCTRL HOME  &kp Z       &kp X       &kp C       &kp V       &kp B    &kp C_MUTE   &kp C_PP   &kp N       &kp M      &kp COMMA     &kp PERIOD &kp SLASH    &mt END SQT
         // THUMBS                                INNER      MIDDLE       OUTER      ||          ||      OUTER       MIDDLE      INNER
                                                &lt 1 MINUS  &kp SPACE    &kp DEL                        &kp BSPC    &kp RET     &lt 2 EQUAL
