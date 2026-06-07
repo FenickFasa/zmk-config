@@ -97,12 +97,12 @@
         // Create a toggle for turning game mode on and off
         combo_game_mode_ON {
             timeout-ms = <50>;
-            key-positions = <37 38 39>;
+            key-positions = <36 37 38>;
             bindings = <&to 3>;
         };
         combo_game_mode_OFF {
             timeout-ms = <50>;
-            key-positions = <40 41 42>;
+            key-positions = <39 40 41>;
             bindings = <&to 0>;
         };
     };
