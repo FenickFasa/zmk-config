@@ -161,11 +161,11 @@
             bindings = <
         // LEFT SIDE
         // OUTER        PINKY       RING        MIDDLE      INDEX       INNER       ||          ||       INNER       INDEX      MIDDLE        RING       PINKY        OUTER
-                        &kp TAB     &kp Q       &kp W       &kp E       &kp R                            &kp none    &kp none   &kp none      &kp none   &kp none
-           &kp ESC      &kp LSHIFT  &kp A       &kp S       &kp D       &kp F                            &kp none    &kp none   &kp none      &kp none   &kp none     &kp none
-           &kp LCTRL    &kp Z       &kp X       &kp C       &kp V       &kp B    &kp C_MUTE   &kp C_PP   &kp none    &kp none   &kp none      &kp none   &kp none     &kp none
+                        &kp TAB     &kp Q       &kp W       &kp E       &kp R                            &none       &none      &none         &none      &none
+           &kp ESC      &kp LSHIFT  &kp A       &kp S       &kp D       &kp F                            &none       &none      &none         &none      &none        &none
+           &kp LCTRL    &kp Z       &kp X       &kp C       &kp V       &kp B    &kp C_MUTE   &kp C_PP   &none       &none      &none         &none      &none        &none
         // THUMBS                                INNER      MIDDLE       OUTER      ||          ||      OUTER       MIDDLE      INNER
-                                                 &mo 0      &kp SPACE    &kp RET                        &kp none    &kp none    &mo none
+                                                 &mo 0      &kp SPACE    &kp RET                        &none       &none       &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp C_NEXT C_PREV>;
